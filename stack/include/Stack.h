@@ -52,7 +52,10 @@ class Stack{
         }
 
         int peek() {
-            return 0;
+
+            int element = this->elements[this->top];
+            
+            return element;
         }
 
         void print() {
